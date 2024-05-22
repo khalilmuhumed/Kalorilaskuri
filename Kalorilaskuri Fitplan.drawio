@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T11:59:20.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="NFaLUrKWXQhO8NLe3sAf" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T12:18:00.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="sd632AKxh27bAgtuKBBu" version="24.4.2" type="github">
   <diagram name="Sivu-1" id="mKQbyd3kxPPgr81X4ePe">
-    <mxGraphModel dx="3831" dy="2473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3558" dy="2354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,9 +12,6 @@
         <mxCell id="0m5QerFudpK0_N1F6iSb-1" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider da bai baj bak bal bam ban bao bap baq bar bas bat bau bav baw bax bay baz bba bbb bbc bbd bbe bbf bbg bbh bbi bbj bbk bbl bbm bbn bbo bbp&quot;&gt;Aloitetaan&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider da bai baj bak bal bam ban bao bap baq bar bas bat bau bav baw bax bay baz bba bbb bbc bbd bbe bbf bbg bbh bbi bbj bbk bbl bbm bbn bbo bbp&quot;&gt;&amp;nbsp;Käynnistä sovellus (fitplan.py)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="-35" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="co7VD3hLq3T6lfHDUUdx-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-4" target="0m5QerFudpK0_N1F6iSb-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="co7VD3hLq3T6lfHDUUdx-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-4" target="0m5QerFudpK0_N1F6iSb-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -23,12 +20,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="co7VD3hLq3T6lfHDUUdx-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="230" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="co7VD3hLq3T6lfHDUUdx-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-4" target="0m5QerFudpK0_N1F6iSb-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0m5QerFudpK0_N1F6iSb-4" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider da bai baj bak bal bam ban bao bap baq bar bas bat bau bav baw bax bay baz bba bbb bbc bbd bbe bbf bbg bbh bbi bbj bbk bbl bbm bbn bbo bbp&quot;&gt;Sovellus kysyy käyttäjältä seuraavat tiedot:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Pituus&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Paino&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Ikä&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Tavoite (painonpudotus/-nosto)&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="co7VD3hLq3T6lfHDUUdx-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-4" target="co7VD3hLq3T6lfHDUUdx-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0m5QerFudpK0_N1F6iSb-4" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider da bai baj bak bal bam ban bao bap baq bar bas bat bau bav baw bax bay baz bba bbb bbc bbd bbe bbf bbg bbh bbi bbj bbk bbl bbm bbn bbo bbp&quot;&gt;Sovellus kysyy käyttäjältä seuraavat tiedot:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Pituus&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Paino&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Ikä&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Tavoite (painonpudotus/-nosto)&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider da bai baj bak bal bam ban bao bap baq bar bas bat bau bav baw bax bay baz bba bbb bbc bbd bbe bbf bbg bbh bbi bbj bbk bbl bbm bbn bbo bbp&quot;&gt;- Sukupuoli (mies tai nainen)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="274" y="170" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="co7VD3hLq3T6lfHDUUdx-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-6">
@@ -102,17 +100,17 @@
         <mxCell id="0m5QerFudpK0_N1F6iSb-29" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider da bai baj bak bal bam ban bao bap baq bar bas bat bau bav baw bax bay baz bba bbb bbc bbd bbe bbf bbg bbh bbi bbj bbk bbl bbm bbn bbo bbp&quot;&gt;&lt;br&gt;Jos käyttäjä haluaa pudottaa painoa&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="735" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="co7VD3hLq3T6lfHDUUdx-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-38" target="0m5QerFudpK0_N1F6iSb-40">
+        <mxCell id="co7VD3hLq3T6lfHDUUdx-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-38" target="0m5QerFudpK0_N1F6iSb-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0m5QerFudpK0_N1F6iSb-38" value="&lt;div style=&quot;text-align: start;&quot;&gt;if ikä &amp;gt; 18 AND&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ikä &amp;gt;= 0&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="210" width="190" height="70" as="geometry" />
+        <mxCell id="0m5QerFudpK0_N1F6iSb-38" value="&lt;div style=&quot;text-align: start;&quot;&gt;elif ikä &amp;gt; 18 AND&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ikä &amp;gt;= 0&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="195" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="co7VD3hLq3T6lfHDUUdx-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-40" target="co7VD3hLq3T6lfHDUUdx-53">
+        <mxCell id="co7VD3hLq3T6lfHDUUdx-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0m5QerFudpK0_N1F6iSb-40" target="co7VD3hLq3T6lfHDUUdx-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0m5QerFudpK0_N1F6iSb-40" value="&lt;div style=&quot;&quot;&gt;Sovellus tulostaa, että &lt;br&gt;&quot;Sovellus tarkoitettu yli 18-vuotialle&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="827" y="185" width="230" height="90" as="geometry" />
+          <mxGeometry x="880" y="185" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="co7VD3hLq3T6lfHDUUdx-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Mies&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-280" y="385" width="160" height="90" as="geometry" />
@@ -299,21 +297,27 @@
           <mxGeometry x="1310" y="1015" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="co7VD3hLq3T6lfHDUUdx-53" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Ohjelma päättyy&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;break;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1161" y="185" width="160" height="90" as="geometry" />
+          <mxGeometry x="1170" y="185" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="co7VD3hLq3T6lfHDUUdx-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co7VD3hLq3T6lfHDUUdx-59" target="co7VD3hLq3T6lfHDUUdx-64">
+        <mxCell id="co7VD3hLq3T6lfHDUUdx-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co7VD3hLq3T6lfHDUUdx-59" target="co7VD3hLq3T6lfHDUUdx-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="co7VD3hLq3T6lfHDUUdx-59" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;if-lauseke&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;pituus &amp;lt; 50 OR pituus &amp;gt; 250&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;paino &amp;lt; 30 OR paino &amp;gt; 175&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ikä &amp;lt; 0 OR ikä &amp;gt; 100&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;tavoite IS NOT &quot;nosto&quot; or &quot;pudotus&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="170" width="240" height="120" as="geometry" />
+        <mxCell id="co7VD3hLq3T6lfHDUUdx-59" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;if-lauseke&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;pituus &amp;lt; 50 OR pituus &amp;gt; 250&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;paino &amp;lt; 30 OR paino &amp;gt; 175&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ikä &amp;lt; 0 OR ikä &amp;gt; 100&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;tavoite IS NOT &quot;nosto&quot; or &quot;pudotus&quot;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;&quot;&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;&quot;&gt;tavoite IS NOT &quot;mies&quot; or &quot;nainen&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="170" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="co7VD3hLq3T6lfHDUUdx-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co7VD3hLq3T6lfHDUUdx-64">
+        <mxCell id="co7VD3hLq3T6lfHDUUdx-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="co7VD3hLq3T6lfHDUUdx-64" target="0m5QerFudpK0_N1F6iSb-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="-5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="co7VD3hLq3T6lfHDUUdx-64" value="&lt;div style=&quot;&quot;&gt;Sovellus tulostaa&lt;br&gt;&quot;antamasi &quot;arvo&quot; arvo ei ole kelvollinen, olehyvä ja yritä uudelleen.&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-85" y="-50" width="230" height="90" as="geometry" />
+          <mxGeometry x="-290" y="50" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="co7VD3hLq3T6lfHDUUdx-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co7VD3hLq3T6lfHDUUdx-70" target="co7VD3hLq3T6lfHDUUdx-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co7VD3hLq3T6lfHDUUdx-70" value="&lt;div style=&quot;text-align: start;&quot;&gt;Aloitetaan &quot;While&quot; silmukka&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="195" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
