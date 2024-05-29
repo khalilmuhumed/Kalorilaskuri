@@ -28,7 +28,7 @@ def maarita_treeni(sukupuoli, tavoite):
     return "Yleiskuntoharjoittelu"
 
 def tulosta_viikko_ohjelma(treeni):
-    #Tulostaa viikonpäiväkohtaisen treeniohjelman taulukkona.
+    # Tulostaa viikonpäiväkohtaisen treeniohjelman taulukkona.
     viikonpaivat = ["Ma", "Ti", "Ke", "To", "Pe", "La", "Su"]
     if treeni == "Voimannostotreeni":
         ohjelma = ["Penkkipunnerrus, 3x10", "Jalkakyykky, 3x10", "Lepopäivä", "Maastaveto, 3x10", "Lepopäivä", "Olkapääpunnerrus, 3x10", "Lepopäivä"]
