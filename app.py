@@ -1,12 +1,12 @@
 def laske_bmr(paino, pituus, ika, sukupuoli):
-    """Laskee ja palauttaa perusaineenvaihdunnan (BMR) käyttäen Harris-Benedictin kaavaa."""
+    #Laskee ja palauttaa perusaineenvaihdunnan (BMR) käyttäen Harris-Benedictin kaavaa.
     if sukupuoli.lower() == "mies":
         return 88.362 + (13.397 * paino) + (4.799 * pituus) - (5.677 * ika)
     else:
         return 447.593 + (9.247 * paino) + (3.098 * pituus) - (4.330 * ika)
 
 def suositeltu_kalorimaara(bmr, tavoite):
-    """Määrittää suositellun päivittäisen kalorimäärän perusteella tavoitteen."""
+    #Määrittää suositellun päivittäisen kalorimäärän perusteella tavoitteen.
     if tavoite.lower() == "nosto":
         return bmr + 750
     elif tavoite.lower() == "pudotus":
@@ -14,7 +14,7 @@ def suositeltu_kalorimaara(bmr, tavoite):
     return bmr
 
 def maarita_treeni(sukupuoli, tavoite):
-    """Määrittää käyttäjälle sopivan treeniohjelman sukupuolen ja tavoitteen perusteella."""
+    #Määrittää käyttäjälle sopivan treeniohjelman sukupuolen ja tavoitteen perusteella.
     if sukupuoli.lower() == "mies":
         if tavoite.lower() == "nosto":
             return "Voimannostotreeni"
@@ -28,7 +28,7 @@ def maarita_treeni(sukupuoli, tavoite):
     return "Yleiskuntoharjoittelu"
 
 def tulosta_viikko_ohjelma(treeni):
-    """Tulostaa viikonpäiväkohtaisen treeniohjelman taulukkona."""
+    #Tulostaa viikonpäiväkohtaisen treeniohjelman taulukkona.
     viikonpaivat = ["Ma", "Ti", "Ke", "To", "Pe", "La", "Su"]
     if treeni == "Voimannostotreeni":
         ohjelma = ["Penkkipunnerrus, 3x10", "Jalkakyykky, 3x10", "Lepopäivä", "Maastaveto, 3x10", "Lepopäivä", "Olkapääpunnerrus, 3x10", "Lepopäivä"]
@@ -44,7 +44,7 @@ def tulosta_viikko_ohjelma(treeni):
     taulukko = "\n".join([f"# {paiva:2}: {harjoitus}" for paiva, harjoitus in zip(viikonpaivat, ohjelma)])
     return taulukko
 
-# Validaatiofunktiot
+#Validaatiofunktiot
 def get_valid_input(prompt, type_cast, low, high):
     while True:
         try:
@@ -70,7 +70,7 @@ def get_gender():
             return gender
         print("Virheellinen sukupuoli. Syötä 'mies' tai 'nainen'.")
 
-# Käyttäjän syötteet
+#Käyttäjän syötteet
 pituus = get_valid_input("Anna pituutesi senttimetreinä: ", float, 50, 250)
 paino = get_valid_input("Anna painosi kilogrammoina: ", float, 30, 175)
 ika = get_valid_input("Anna ikäsi vuosina: ", int, 0, 100)
@@ -82,21 +82,21 @@ else:
     sukupuoli = get_gender()
     tavoite = get_goal()
 
-    # Lasketaan BMR ja suositeltu kalorimäärä
+    #Lasketaan BMR ja suositeltu kalorimäärä
     bmr = laske_bmr(paino, pituus, ika, sukupuoli)
     kalorimaara = suositeltu_kalorimaara(bmr, tavoite)
 
-    # Määritetään treeni
+    #Määritetään treeni
     treeni = maarita_treeni(sukupuoli, tavoite)
 
-    # Tulostetaan tulokset
+    #Tulostetaan tulokset
     print("")
     print("-" * 50)
     print(f"# Perusaineenvaihduntasi (BMR) on: {bmr:.2f} kcal")
     print(f"# Suositeltu päivittäinen kalorimääräsi on: {kalorimaara:.2f} kcal")
     print("-" * 50)
 
-    # Tulostetaan viikko-ohjelma
+    #Tulostetaan viikko-ohjelma
     print(f"# Treeniohjelmasi viikolle:")
     print(f"# Sopiva treeniohjelma sinulle on: {treeni}")    
     print("-" * 50)
