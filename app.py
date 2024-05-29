@@ -8,9 +8,9 @@ def laske_bmr(paino, pituus, ika, sukupuoli):
 def suositeltu_kalorimaara(bmr, tavoite):
     #Määrittää suositellun päivittäisen kalorimäärän perusteella tavoitteen.
     if tavoite.lower() == "nosto":
-        return bmr + 750
+        return bmr + 300
     elif tavoite.lower() == "pudotus":
-        return bmr - 500
+        return bmr - 300
     return bmr
 
 def maarita_treeni(sukupuoli, tavoite):
@@ -45,10 +45,10 @@ def tulosta_viikko_ohjelma(treeni):
     return taulukko
 
 #Validaatiofunktiot
-def get_valid_input(prompt, type_cast, low, high):
+def validointi(syote, muuttujatyyppi, low, high):
     while True:
         try:
-            value = type_cast(input(prompt))
+            value = muuttujatyyppi(input(syote))
             if low <= value <= high:
                 return value
             else:
@@ -56,31 +56,31 @@ def get_valid_input(prompt, type_cast, low, high):
         except ValueError:
             print("Virheellinen syöte. Yritä uudelleen.")
 
-def get_goal():
+def pyyda_tavoite():
     while True:
-        goal = input("Onko tavoitteesi painonpudotus vai -nosto? (pudotus/nosto) ")
-        if goal.lower() in ['pudotus', 'nosto']:
-            return goal
+        lopputavoite = input("Onko tavoitteesi painonpudotus vai -nosto? (pudotus/nosto) ")
+        if lopputavoite.lower() in ['pudotus', 'nosto']:
+            return lopputavoite
         print("Virheellinen tavoite. Syötä 'pudotus' tai 'nosto'.")
 
-def get_gender():
+def pyyda_sukupuoli():
     while True:
-        gender = input("Oletko mies vai nainen? ")
-        if gender.lower() in ['mies', 'nainen']:
-            return gender
+        sukup = input("Oletko mies vai nainen? ")
+        if sukup.lower() in ['mies', 'nainen']:
+            return sukup
         print("Virheellinen sukupuoli. Syötä 'mies' tai 'nainen'.")
 
 #Käyttäjän syötteet
-pituus = get_valid_input("Anna pituutesi senttimetreinä: ", float, 50, 250)
-paino = get_valid_input("Anna painosi kilogrammoina: ", float, 30, 175)
-ika = get_valid_input("Anna ikäsi vuosina: ", int, 0, 100)
+pituus = validointi("Anna pituutesi senttimetreinä: ", float, 50, 250)
+paino = validointi("Anna painosi kilogrammoina: ", float, 30, 175)
+ika = validointi("Anna ikäsi vuosina: ", int, 0, 100)
 
 if ika < 18:
     vuosia_jaljella = 18 - ika
     print(f"Ohjelma on K-18. Odota vielä {vuosia_jaljella} vuotta, jotta pystyt käyttämään ohjelmaa.")
 else:
-    sukupuoli = get_gender()
-    tavoite = get_goal()
+    sukupuoli = pyyda_sukupuoli()
+    tavoite = pyyda_tavoite()
 
     #Lasketaan BMR ja suositeltu kalorimäärä
     bmr = laske_bmr(paino, pituus, ika, sukupuoli)
@@ -102,3 +102,4 @@ else:
     print("-" * 50)
     print(tulosta_viikko_ohjelma(treeni))
     print("-" * 50)
+    
