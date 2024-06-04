@@ -17,4 +17,4 @@ FitPlan on tekstipohjainen sovellus, joka auttaa käyttäjiä suunnittelemaan ru
 
 FitPlan-sovellus on luotu osana ohjelmistoprojektia "Pari/Ryhmätyö: Ohjelmistoprojekti" keväällä 2024. Sovellus on kehitetty Python-ohjelmointikielellä ja se perustuu tekstipohjaiseen käyttöliittymään.
 
-![FitPlan Demo](https://www.youtube.com/watch?v=8Od1QQrTFG0)
+[FitPlan Demo](https://www.youtube.com/watch?v=8Od1QQrTFG0)
