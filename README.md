@@ -11,10 +11,10 @@ FitPlan on tekstipohjainen sovellus, joka auttaa käyttäjiä suunnittelemaan ru
 ## Tärkeät tiedot
 
 - Sovellus käyttää Harris-Benedict -kaavaa laskeakseen käyttäjän perusaineenvaihdunnan (BMR) ja päivittäisen kokonaisenergiankulutuksen (TEE).
-- Treenipäiväkirja sisältää päivittäiset treenit, niiden keston ja intensiteetin, jotka soveltuvat käyttäjän tavoitteisiin.
+- Treenipäiväkirja sisältää päivittäiset treenit ja niiden keston, jotka soveltuvat käyttäjän tavoitteisiin.
 
 ## Lisätiedot
 
 FitPlan-sovellus on luotu osana ohjelmistoprojektia "Pari/Ryhmätyö: Ohjelmistoprojekti" keväällä 2024. Sovellus on kehitetty Python-ohjelmointikielellä ja se perustuu tekstipohjaiseen käyttöliittymään.
 
-![FitPlan Demo](linkki_demovideoon)
+![FitPlan Demo](https://www.youtube.com/watch?v=8Od1QQrTFG0)
