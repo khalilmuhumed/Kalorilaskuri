@@ -1,3 +1,5 @@
+import pydoc
+
 def laske_bmr(paino, pituus, ika, sukupuoli):
     #Laskee ja palauttaa perusaineenvaihdunnan (BMR) käyttäen Harris-Benedictin kaavaa.
     if sukupuoli.lower() == "mies":
@@ -103,3 +105,4 @@ else:
     print(tulosta_viikko_ohjelma(treeni))
     print("-" * 50)
     
+    pydoc.writedoc('fitplan')
