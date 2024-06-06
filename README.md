@@ -2,7 +2,7 @@
 
 FitPlan on tekstipohjainen sovellus, joka auttaa käyttäjiä suunnittelemaan ruokavaliotaan ja treeniohjelmaansa tavoitteidensa saavuttamiseksi. Sovelluksessa käyttäjä voi syöttää omat tiedot, kuten pituuden, painon, iän ja aktiivisuustason, jonka perusteella FitPlan laskee päivittäisen suositellun kalorimäärän.
 
-## Kuinka käyttää FitPlan-sovellusta?
+## Kuinka käyttää FitPlan-sovellusta? 
 
 1. Käynnistä sovellus suorittamalla `fitplan.py`-tiedosto Python-ympäristössä.
 2. Syötä käyttäjätietosi, kuten pituus, paino, ikä ja haluttu tavoite (painonpudotus tai -nosto).
