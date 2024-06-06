@@ -105,4 +105,4 @@ else:
     print(tulosta_viikko_ohjelma(treeni))
     print("-" * 50)
     
-    pydoc.writedoc('fitplan')
+pydoc.writedoc('fitplan')
